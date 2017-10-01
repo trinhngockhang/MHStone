@@ -49,3 +49,34 @@ export const CompanyName = styled.div`
     font-size: 16px;
     margin-top: 20px;
 `;
+
+export const FooterBot = styled.div`
+    clear: both;
+    min-height: 130px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+`;
+
+export const Column = styled.div`
+    float: left;
+    width: 230px;
+    padding: 0px 10px;
+    border-right: 1px solid #CE9D00;
+    height: 120px;
+    line-height: 20px;
+`;
+
+export const InfofooterTitle = styled.h4`
+    color: #CE9D00;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+`;
+
+export const P = styled.p`
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+    font-size:13px;
+    font-weight: 100;
+`;
